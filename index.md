@@ -3,7 +3,7 @@
 
 # GETTING STARTED
 
-### :octocat: STEP 01
+### ✔️ STEP 01
 
 ## HOW TO GET IT?
 
@@ -11,7 +11,7 @@
 2. Unzip it and add into your own project directory.
 3. Import it. That's it.
 
-### :octocat: STEP 02
+### ✔️ STEP 02
 
 ## HOW TO IMPORT PACKAGE?
 
@@ -30,7 +30,7 @@
     import static EasyIO.cStyle.*;
     ```
 
-### :octocat: STEP 03-A
+### ✔️ STEP 03-A
 
 ## HOW TO PRINT?
 
@@ -70,7 +70,7 @@ USING **EasyIO.cStyle** PACKAGE
     ...
     ```
 
-### :octocat: STEP 03-B
+### ✔️ STEP 03-B
 
 ## HOW TO INSERT/GET DATA FROM USER?
 
@@ -109,7 +109,7 @@ USING **EasyIO.cStyle** PACKAGE
     ...
     ```
 
-### :octocat: STEP 03-C
+### ✔️ STEP 03-C
 
 ## HOW TO CAST THE TYPE?
 
