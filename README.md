@@ -1,5 +1,5 @@
 
-EasyIO** is a JAVA package - which intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
+**EasyIO** is a JAVA package - which intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
 
 # GETTING STARTED
 
