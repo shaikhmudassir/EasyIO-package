@@ -1,6 +1,8 @@
-# Documentation
+**EasyIO** is a JAVA package - whitch intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
 
-## How To Get It?
+# DOCUMENTATION
+
+## HOW TO GET IT?
 
 Download this repository, unzip it and add into your project directory.
 
@@ -8,7 +10,7 @@ Download this repository, unzip it and add into your project directory.
 https://github.com/shaikhmudassir/EasyIO-package/archive/refs/heads/main.zip
 ```
 
-## How to use it?
+## HOW TO USE PACKAGE?
 
 Import following statement, it is must to add **static** keyword.
 
@@ -16,7 +18,7 @@ Import following statement, it is must to add **static** keyword.
 import static EasyIO.EasyIO.*;
 ```
 
-## More about using Methods
+## HOW TO PRINT?
 
 1. These methods will print what ever is written within circular brackets.
 2. String must be Written with Double Quotes(" ").
@@ -29,9 +31,9 @@ print("Second line");
 ```
 
 Output:
->Oneline Second
+> One line Second
 
-## Inserting Methods
+## HOW TO INSERT?
 
 1. All of these methods used to accept input from front end user.
 2. User can give description.It is the guidelines for the user.
@@ -43,7 +45,7 @@ String str = insert() ;
 String age = insertInt("Enter your age");
 ```
 
-## Type Casting
+## HOW TO CAST THE TYPE?
 
 1. All Type casting Methods has first Letter Capital.
 2. Type casting is done with String,Integer,Double,Long,Float data types.
@@ -52,9 +54,7 @@ String age = insertInt("Enter your age");
 int age = Int(args[1]);
 ```
 
-## Here's Somthing New
-
-## C Style Design
+## C STYLE GETTING AND PRINTING
 
 1. Refer *Sample.java* here and soon you'll get familiar with it.
 2. Can use in following ways:
@@ -67,6 +67,6 @@ int number = get_int('y',"Enter the number %d times (this line is in yellow colo
 // Printing Numbers With And Without Formatting
 print("number is 32");
 print("number is %d",number);
-print('p',"number is %d (this line is in puple color)",number);
+print('p',"number is %d (this line is in purple color)",number);
 // Do experiment by yourself ...
 ```
