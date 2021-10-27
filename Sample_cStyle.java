@@ -16,8 +16,8 @@ class Sample_cStyle {
 		print('y', "Greetings %s!\n", get_string('b', "What is your name : "));
 		print('y', "Oh ! So you are %d years old!\n", get_int('b', "What is your age : "));
 		print('y', "You have Entered %d\n", get_long('b', "What is your Phone number : "));
-		print('y', "Casted(double <- int) Twice is %f\n", get_int('b', "Enter some Number : ") * 2);
-		print('y', "Casted(int <- double) Twice is %d\n", get_double('b', "Enter some double to cast : ") * 2);
+		print('y', "Twice is %d\n", get_int('b', "Enter some integer : ") * 2);
+		print('y', "Twice is %f\n", get_double('b', "Enter some decimal integer : ") * 2);
 		// FOLLOWING CAN BE EXECUTED IF NEEDED
 		// printing();
 		// getting();
