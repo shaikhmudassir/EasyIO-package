@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+## Welcome to EasyIO
 
-You can use the [editor on GitHub](https://github.com/s-m-quadri/EasyIO-package/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+EasyIO is a JAVA package - is intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Documentation
 
-### Markdown
+## How To Get It?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Download this repository, unzip it and add into your project directory.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+``` html
+https://github.com/shaikhmudassir/EasyIO-package/archive/refs/heads/main.zip
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How to use it?
 
-### Jekyll Themes
+Import following statement, it is must to add **static** keyword.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/s-m-quadri/EasyIO-package/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```java
+import static EasyIO.EasyIO.*;
+```
 
-### Support or Contact
+## More about using Methods
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. These methods will print what ever is written within circular brackets.
+2. String must be Written with Double Quotes(" ").
+3. " + " Operator is used to concatenate String and to Separate Variables.
+4. If user wants Next print Statement within a same line so,he can Enable(true) By writing "true" as second argument.Example,
+
+```java
+print("One line ",true);
+print("Second line");
+```
+
+Output:
+>Oneline Second
+
+## Inserting Methods
+
+1. All of these methods used to accept input from front end user.
+2. User can give description.It is the guidelines for the user.
+3. If user wants Description and input in a single line then he can Enable(true)the Single line method.
+
+```java
+String str = insert() ;
+
+String age = insertInt("Enter your age");
+```
+
+## Type Casting
+
+1. All Type casting Methods has first Letter Capital.
+2. Type casting is done with String,Integer,Double,Long,Float data types.
+
+```java
+int age = Int(args[1]);
+```
+
+## Here's Somthing New
+
+## C Style Design
+
+1. Refer *Sample.java* here and soon you'll get familiar with it.
+2. Can use in following ways:
+
+```java
+// Getting Numbers With And Without Formatting
+int number = get_int("Enter the number");
+int number = get_int('r',"Enter the number (this line is in red color)");
+int number = get_int('y',"Enter the number %d times (this line is in yellow color)",2);
+// Printing Numbers With And Without Formatting
+print("number is 32");
+print("number is %d",number);
+print('p',"number is %d (this line is in puple color)",number);
+// Do experiment by yourself ...
+```
+
