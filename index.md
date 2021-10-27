@@ -1,20 +1,20 @@
-**EasyIO** is a JAVA package - whitch intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
+**EasyIO** is a JAVA package - which intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
 
 # DOCUMENTATION
 
 ## HOW TO GET IT?
 
-Download this repository, unzip it and add into your project directory.
+1. Download the repository, better to be in .ZIP format.
+2. Unzip it and add into your own project directory.
+3. Import it. That's it.
 
-``` html
-https://github.com/shaikhmudassir/EasyIO-package/archive/refs/heads/main.zip
-```
 
 ## HOW TO USE PACKAGE?
 
-Import following statement, it is must to add **static** keyword.
+Use following format to import in JAVA.
 
 ```java
+// must use "static" keyword
 import static EasyIO.EasyIO.*;
 ```
 
@@ -28,42 +28,12 @@ import static EasyIO.EasyIO.*;
 ```java
 print("One line ",true);
 print("Second line");
+// Output: One line Second
 ```
-
-Output:
-> One line Second
-
-## HOW TO INSERT?
-
-1. All of these methods used to accept input from front end user.
-2. User can give description.It is the guidelines for the user.
-3. If user wants Description and input in a single line then he can Enable(true)the Single line method.
-
+5. Can use C Style printing values as described below.
+6. Refer *Sample.java*. Soon you'll get familiar with it.
+7. Can use in following ways:
 ```java
-String str = insert() ;
-
-String age = insertInt("Enter your age");
-```
-
-## HOW TO CAST THE TYPE?
-
-1. All Type casting Methods has first Letter Capital.
-2. Type casting is done with String,Integer,Double,Long,Float data types.
-
-```java
-int age = Int(args[1]);
-```
-
-## C STYLE GETTING AND PRINTING
-
-1. Refer *Sample.java* here and soon you'll get familiar with it.
-2. Can use in following ways:
-
-```java
-// Getting Numbers With And Without Formatting
-int number = get_int("Enter the number");
-int number = get_int('r',"Enter the number (this line is in red color)");
-int number = get_int('y',"Enter the number %d times (this line is in yellow color)",2);
 // Printing Numbers With And Without Formatting
 print("number is 32");
 print("number is %d",number);
@@ -71,3 +41,32 @@ print('p',"number is %d (this line is in purple color)",number);
 // Do experiment by yourself ...
 ```
 
+## HOW TO INSERT/GET DATA FROM USER?
+
+1. All of these methods used to accept input from front end user.
+2. User can give description.It is the guidelines for the user.
+3. If user wants Description and input in a single line then he can Enable(true)the Single line method.
+
+```java
+String str = insert() ;
+String age = insertInt("Enter your age");
+```
+4. Can use C Style printing values as described below.
+5. Refer *Sample.java*. Soon you'll get familiar with it.
+6. Can use in following ways:
+```java
+// Getting Numbers With And Without Formatting
+int number = get_int("Enter the number");
+int number = get_int('r',"Enter the number (this line is in red color)");
+int number = get_int('y',"Enter the number %d times (this line is in yellow color)",2);
+// Do experiment by yourself ...
+```
+
+## HOW TO CAST THE TYPE?
+
+1. All Type casting Methods has first Letter Capital.
+2. Type casting is done with String, Integer, Double, Long, Float data types.
+
+```java
+int age = Int(args[1]);
+```
