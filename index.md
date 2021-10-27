@@ -1,9 +1,9 @@
 
-EasyIO** is a JAVA package - which intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
+**EasyIO** is a JAVA package - which intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
 
 # GETTING STARTED
 
-### STEP 01
+### :octocat: STEP 01
 
 ## HOW TO GET IT?
 
@@ -11,7 +11,7 @@ EasyIO** is a JAVA package - which intended to provide ease for programmers to g
 2. Unzip it and add into your own project directory.
 3. Import it. That's it.
 
-### STEP 02
+### :octocat: STEP 02
 
 ## HOW TO IMPORT PACKAGE?
 
@@ -30,7 +30,7 @@ EasyIO** is a JAVA package - which intended to provide ease for programmers to g
     import static EasyIO.cStyle.*;
     ```
 
-### STEP 03-A
+### :octocat: STEP 03-A
 
 ## HOW TO PRINT?
 
@@ -70,7 +70,7 @@ USING **EasyIO.cStyle** PACKAGE
     ...
     ```
 
-### STEP 03-B
+### :octocat: STEP 03-B
 
 ## HOW TO INSERT/GET DATA FROM USER?
 
@@ -109,7 +109,7 @@ USING **EasyIO.cStyle** PACKAGE
     ...
     ```
 
-### STEP 03-C
+### :octocat: STEP 03-C
 
 ## HOW TO CAST THE TYPE?
 
@@ -124,4 +124,5 @@ ONLY USING **EasyIO.EasyIO** PACKAGE
     ...
     ...
     int age = Int(args[1]);
+    ...
     ```
