@@ -29,7 +29,8 @@
 !/LICENSE
 !/README.md
 !/.gitignore
-!*/.gitignore
+!/_config.yml
+!/index.md
 
 # [STEP 03] Except the working ones
 !**.java
