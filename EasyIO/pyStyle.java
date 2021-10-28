@@ -89,80 +89,80 @@ public class pyStyle {
 		String str = a.nextLine();
 		return str;
 	}
-	public static int insertInt()							//input Integer
+	public static int inputInt()							//input Integer
 	{
 		Scanner a = new Scanner(System.in);
 		int str = a.nextInt();
 		return str;
 	}
-	public static int insertInt(String decs)				//input Integer with Description
+	public static int inputInt(String decs)				//input Integer with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		int str = a.nextInt();
 		return str;
 	}
-	public static int insertInt(String decs,boolean oneLine)	//input Integer with Description,Single line
+	public static int inputInt(String decs,boolean oneLine)	//input Integer with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		int str = a.nextInt();
 		return str;
 	}
-	public static double insertDouble()							//input Double
+	public static double inputDouble()							//input Double
 	{
 		Scanner a = new Scanner(System.in);
 		double str = a.nextDouble();
 		return str;
 	}
-	public static double insertDouble(String decs)		//input Double with Description
+	public static double inputDouble(String decs)		//input Double with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		double str = a.nextDouble();
 		return str;
 	}
-	public static double insertDouble(String decs,boolean oneLine) //input Double with Description,Single line
+	public static double inputDouble(String decs,boolean oneLine) //input Double with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		double str = a.nextDouble();
 		return str;
 	}
-	public static long insertLong()							//input Long
+	public static long inputLong()							//input Long
 	{
 		Scanner a = new Scanner(System.in);
 		long str = a.nextLong();
 		return str;
 	}
-	public static long insertLong(String decs)				//input Long with Description
+	public static long inputLong(String decs)				//input Long with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		long str = a.nextLong();
 		return str;
 	}
-	public static long insertLong(String decs,boolean oneLine)	//input Long with Description,Single line
+	public static long inputLong(String decs,boolean oneLine)	//input Long with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		long str = a.nextLong();
 		return str;
 	}
-	public static float insertFloat()							//input Float
+	public static float inputFloat()							//input Float
 	{
 		Scanner a = new Scanner(System.in);
 		float str = a.nextFloat();
 		return str;
 	}
-	public static float insertFloat(String decs)				//input Float with Description
+	public static float inputFloat(String decs)				//input Float with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		float str = a.nextFloat();
 		return str;
 	}
-	public static float insertFloat(String decs,boolean oneLine)				//input Float with Description,Single line
+	public static float inputFloat(String decs,boolean oneLine)				//input Float with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);

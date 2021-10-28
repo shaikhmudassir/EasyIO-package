@@ -1,4 +1,4 @@
-import static EasyIO.EasyIO.*;
+import static EasyIO.pyStyle.*;
 class Sample_pyStyle
 {
 	public static void main(String args[])
