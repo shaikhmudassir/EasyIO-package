@@ -1,5 +1,4 @@
-
-**EasyIO** is a JAVA package - which intended to provide ease for programmers to get input and to display them, specially for beginners yet useful for professionals.
+**Programming in JAVA now became easy and joyful with EasyIO** - which is a JAVA package intended to provide ease for programmers to get input and output, beautiful colors in the terminal and also easy data type casting. Specially created for beginners, yet useful for professionals.
 
 # GETTING STARTED
 
