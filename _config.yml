@@ -1,4 +1,7 @@
 theme: jekyll-theme-architect
 title: EasyIO
 description: JAVA input output became easy and joyful for beginners
+github:
+  zip_url: https://github.com/shaikhmudassir/EasyIO-package/archive/refs/tags/EasyIO_28_10_2021_LTS.zip
+  tar_url: https://github.com/shaikhmudassir/EasyIO-package/archive/refs/tags/EasyIO_28_10_2021_LTS.zip
 show_downloads: true
