@@ -1,13 +1,11 @@
 /***************************************************************************
  *     ========= *** Easy Input output & Type casting package *** ===========
- *     Developed By :  		1. Shaikh Mudassir Ahmed (23145)
- *     	                    2. Rohit Patil (23132)
- *     	                    3. Md.Affan (23112)
+ *     Developed By :  		1. Shaikh Mudassir Ahmed
  ***************************************************************************/
 
 package EasyIO;
 import java.util.Scanner;
-public class EasyIO {
+public class pyStyle {
 	/*** 
 	 	Printing Methods :
 	 	1.These methods will print what ever is written within circular brackets.
@@ -71,100 +69,100 @@ public class EasyIO {
 	 	3.If user wants Description and input in a single line then he can Enable(true)the Single line method.  
 	***/
 	
-	public static String insert()							//Insert string
+	public static String input()							//input string
 	{
 		Scanner a = new Scanner(System.in);
 		String str = a.nextLine();
 		return str;
 	}
-	public static String insert(String decs)				//Insert string with Description
+	public static String input(String decs)				//input string with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		String str = a.nextLine();
 		return str;
 	}
-	public static String insert(String decs,boolean oneLine)   //Insert string with Description , Single line
+	public static String input(String decs,boolean oneLine)   //input string with Description , Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		String str = a.nextLine();
 		return str;
 	}
-	public static int insertInt()							//Insert Integer
+	public static int insertInt()							//input Integer
 	{
 		Scanner a = new Scanner(System.in);
 		int str = a.nextInt();
 		return str;
 	}
-	public static int insertInt(String decs)				//Insert Integer with Description
+	public static int insertInt(String decs)				//input Integer with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		int str = a.nextInt();
 		return str;
 	}
-	public static int insertInt(String decs,boolean oneLine)	//Insert Integer with Description,Single line
+	public static int insertInt(String decs,boolean oneLine)	//input Integer with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		int str = a.nextInt();
 		return str;
 	}
-	public static double insertDouble()							//Insert Double
+	public static double insertDouble()							//input Double
 	{
 		Scanner a = new Scanner(System.in);
 		double str = a.nextDouble();
 		return str;
 	}
-	public static double insertDouble(String decs)		//Insert Double with Description
+	public static double insertDouble(String decs)		//input Double with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		double str = a.nextDouble();
 		return str;
 	}
-	public static double insertDouble(String decs,boolean oneLine) //Insert Double with Description,Single line
+	public static double insertDouble(String decs,boolean oneLine) //input Double with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		double str = a.nextDouble();
 		return str;
 	}
-	public static long insertLong()							//Insert Long
+	public static long insertLong()							//input Long
 	{
 		Scanner a = new Scanner(System.in);
 		long str = a.nextLong();
 		return str;
 	}
-	public static long insertLong(String decs)				//Insert Long with Description
+	public static long insertLong(String decs)				//input Long with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		long str = a.nextLong();
 		return str;
 	}
-	public static long insertLong(String decs,boolean oneLine)	//Insert Long with Description,Single line
+	public static long insertLong(String decs,boolean oneLine)	//input Long with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
 		long str = a.nextLong();
 		return str;
 	}
-	public static float insertFloat()							//Insert Float
+	public static float insertFloat()							//input Float
 	{
 		Scanner a = new Scanner(System.in);
 		float str = a.nextFloat();
 		return str;
 	}
-	public static float insertFloat(String decs)				//Insert Float with Description
+	public static float insertFloat(String decs)				//input Float with Description
 	{
 		System.out.println(decs);
 		Scanner a = new Scanner(System.in);
 		float str = a.nextFloat();
 		return str;
 	}
-	public static float insertFloat(String decs,boolean oneLine)				//Insert Float with Description,Single line
+	public static float insertFloat(String decs,boolean oneLine)				//input Float with Description,Single line
 	{
 		System.out.print(decs);
 		Scanner a = new Scanner(System.in);
