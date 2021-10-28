@@ -16,11 +16,11 @@
 ## HOW TO IMPORT PACKAGE?
 
 1. Before starting must import respective.
-2. For **EasyIO.EasyIO** package, import as:
+2. For **EasyIO.pyStyle** package, import as:
 
     ```java
     // At top, must import this with "static" keyword
-    import static EasyIO.EasyIO.*;
+    import static EasyIO.pyStyle.*;
     ```
 
 3. For **EasyIO.cStyle** package, import as:
@@ -34,7 +34,7 @@
 
 ## HOW TO PRINT?
 
-USING **EasyIO.EasyIO** PACKAGE
+USING **EasyIO.pyStyle** PACKAGE
 
 1. These methods will print what ever is written within circular brackets.
 2. String must be Written with Double Quotes(" ").
@@ -43,7 +43,7 @@ USING **EasyIO.EasyIO** PACKAGE
 
     ```java
     // At top, must import this
-    import static EasyIO.EasyIO.*;
+    import static EasyIO.pyStyle.*;
     ...
     ...
     print("One line ",true);
@@ -74,7 +74,7 @@ USING **EasyIO.cStyle** PACKAGE
 
 ## HOW TO INSERT/GET DATA FROM USER?
 
-USING **EasyIO.EasyIO** PACKAGE
+USING **EasyIO.pyStyle** PACKAGE
 
 1. All of these methods used to accept input from front end user.
 2. User can give description.It is the guidelines for the user.
@@ -82,11 +82,11 @@ USING **EasyIO.EasyIO** PACKAGE
 
     ```java
     // At top, must import this
-    import static EasyIO.EasyIO.*;
+    import static EasyIO.pyStyle.*;
     ...
     ...
-    String str = insert() ;
-    String age = insertInt("Enter your age");
+    String str = input() ;
+    String age = inputInt("Enter your age");
     ...
     ```
 
@@ -113,14 +113,14 @@ USING **EasyIO.cStyle** PACKAGE
 
 ## HOW TO CAST THE TYPE?
 
-ONLY USING **EasyIO.EasyIO** PACKAGE
+ONLY USING **EasyIO.pyStyle** PACKAGE
 
 1. All Type casting Methods has first Letter Capital.
 2. Type casting is done with String, Integer, Double, Long, Float data types.
 
     ```java
     // At top, must import this
-    import static EasyIO.EasyIO.*;
+    import static EasyIO.pyStyle.*;
     ...
     ...
     int age = Int(args[1]);
